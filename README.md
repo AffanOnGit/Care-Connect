@@ -108,6 +108,139 @@ To create a modern, web + mobile application tailored for small-to-medium-sized 
 
 ---
 
+## 🎯 Detailed Feature List
+
+Below is a comprehensive breakdown of what each user role can do in **CareConnect**, grouped by responsibility and workflow.
+
+---
+
+### 🛎️ Receptionist
+
+- **Patient Onboarding & Profile Management**  
+  – Create new patient profiles (demographics, contact info, basic medical history)  
+  – Edit or merge duplicate profiles  
+  – Upload ID scans and insurance documents  
+
+- **Appointment Scheduling & Desk Workflow**  
+  – View **multi‑doctor calendar** with drag‑and‑drop rescheduling  
+  – Create, modify or cancel appointments (with automated conflict checks)  
+  – Maintain a **live waiting list** and send “you’re next” alerts via SMS/email  
+  – Check patients in/out on arrival, recording no‑show or late‑arrival status  
+
+- **Communications & Notifications**  
+  – Send bulk or individual appointment reminders  
+  – Flag urgent messages to doctor (e.g. “Mr. Ahmed just arrived early”)  
+  – Broadcast clinic‑wide announcements (holidays, special hours)  
+
+- **Billing & Payments**  
+  – Generate invoices for visits, labs, and pharmacy items  
+  – Record payments (cash, card, mobile wallet) and issue digital receipts  
+  – Apply discounts or insurance adjustments per referral notes  
+
+---
+
+### 👩‍⚕️ Doctor
+
+- **Personal Dashboard & Schedule**  
+  – Weekly & daily view of upcoming appointments, color‑coded by status  
+  – Real‑time pop‑up when a new appointment is added/edited/canceled  
+  – “Confirm” or “Decline” new slots to prevent accidental bookings  
+
+- **Clinical Record‑Keeping**  
+  – View full **EMR timeline**: past visits, labs, imaging, prescriptions  
+  – Add visit notes, diagnoses, treatment plans, and follow‑up instructions  
+  – Attach files (images, PDFs) or voice‑recorded notes to patient chart  
+
+- **Digital Prescriptions & Orders**  
+  – Select medications from a built‑in drug library with dosage templates  
+  – Print or securely send e‑prescription to in‑clinic pharmacy  
+  – Track fulfillment status and send “meds ready” alerts to patient  
+
+- **Referrals & Internal Messaging**  
+  – Refer to fellow doctors or departments with optional discount/fee notes  
+  – Send secure in‑app chat messages to peers about specific cases  
+  – Track referral progress and receive automatic reminders for pending follow‑ups  
+
+- **Earnings & Analytics**  
+  – View **per‑visit** and **monthly** revenue summaries  
+  – Breakdown by service type (consultation, procedure, lab, pharmacy)  
+  – Export earnings reports for payroll or tax purposes  
+
+- **Patient Outreach**  
+  – Send one‑click appointment confirmations or follow‑up reminders  
+  – Broadcast health‑tips or seasonal advisories to patient groups  
+
+---
+
+### 💊 Pharmacist
+
+- **Prescription Queue & Fulfillment**  
+  – See incoming prescriptions in real time, sorted by urgency  
+  – Mark items as **“Dispensed,” “Waiting for Stock,”** or **“Collected”**  
+  – Auto‑update patient billing when prescription is fulfilled  
+
+- **Inventory Management**  
+  – Maintain master list of drugs, dosages, batch numbers, expiry dates  
+  – Auto‑decrement stock on dispensing and alert on low‑stock thresholds  
+  – Generate restock purchase orders or CSV exports for suppliers  
+
+- **Reporting & Compliance**  
+  – Daily log of dispensed meds, returns, and wastage  
+  – Export audit trail for regulatory or internal review  
+
+---
+
+### 📱 Patient
+
+- **Self‑Service Portal / Mobile App**  
+  – Browse available time slots and **book or reschedule** appointments  
+  – Receive SMS/email & in‑app reminders and confirmations  
+  – View upcoming visits and download calendar invites  
+
+- **Personal Health Dashboard**  
+  – Access past visit summaries, lab results, and prescription history  
+  – Confirm or cancel follow‑ups with one tap  
+  – Pay outstanding invoices online via secure payment link  
+
+- **Medication & Pickup Tracking**  
+  – See real‑time status of prescriptions (“Ready,” “Pending,” “Collected”)  
+  – Get notified when meds are ready at pharmacy  
+
+- **Language & Accessibility**  
+  – Toggle UI between **English** and **اردو (Urdu)**  
+  – Simple, intuitive layout optimized for phones  
+
+---
+
+### 🛡️ Administrator / Clinic Manager
+
+- **User & Role Management**  
+  – Add, suspend or delete staff accounts (Receptionist, Doctor, Pharmacist)  
+  – Configure 2FA settings and password policies  
+  – Assign department‑level permissions and access  
+
+- **Clinic Setup & Configuration**  
+  – Define services, consultation fees, and department pricing  
+  – Set clinic hours, holidays, and blackout dates  
+  – Manage branches or multiple locations under one account  
+
+- **Global Reporting & Analytics**  
+  – Clinic‑wide dashboards: patient volume, revenue trends, no‑show rates  
+  – Export high‑level reports (PDF/CSV) for board meetings or tax filings  
+  – Monitor system health (uptime, pending updates, active users)  
+
+- **White‑Label & Monetization Settings**  
+  – Customize branding: logo, colors, clinic name on client apps  
+  – Generate licensing keys or subscription settings for other clinics  
+  – Track usage metrics and on‑board new client clinics  
+
+---
+
+> **Tip:** Each feature set is modular—enable only what your clinic needs, keep your interface clean, and scale up as you grow!
+
+
+---
+
 ## 🛠️ Deployment Options
 
 - **Web App**: Free hosting with [Netlify](https://netlify.com), [Vercel](https://vercel.com), or [Cloudflare Pages](https://pages.cloudflare.com).
